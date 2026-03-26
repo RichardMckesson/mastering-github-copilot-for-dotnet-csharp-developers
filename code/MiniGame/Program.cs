@@ -84,7 +84,7 @@ string DetermineWinner(string player, string computer)
     if (player == computer)
     {
         return "tie";
-    }ReaderWriterLockSlim
+    }
     
     if (player == "rock" && computer == "scissors")
         return "win";
